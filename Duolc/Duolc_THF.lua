@@ -24,11 +24,11 @@ end
 
 -- Setup vars that are user-independent.  state.Buff vars initialized here will automatically be tracked.
 function job_setup()
+	include('Mote-TreasureHunter')
+
 	state.Buff['Sneak Attack'] = buffactive['sneak attack']	or false
 	state.Buff['Trick Attack'] = buffactive['trick attack']	or false
 	state.Buff['Feint'] = buffactive['feint'] or false
-	
-	include('Mote-TreasureHunter')
 
 -- For th_action_check():
 -- JA IDs for actions that always have TH: Provoke, Animated Flourish
