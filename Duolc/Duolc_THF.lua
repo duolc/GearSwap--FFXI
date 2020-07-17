@@ -351,7 +351,7 @@ function init_gear_sets()
 		head = "Meghanada Visor +1",
 		body = "Meg. Cuirie +2",
 		hands = "Meg. Gloves +1",
-		legs = "Meg. Chausses +1",
+		legs = "Meghanada chausses +2",
 		feet = "Meg. Jam. +1",
 		neck = "Chivalrous Chain",
 		waist="Sailfi Belt",
